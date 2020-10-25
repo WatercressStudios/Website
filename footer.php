@@ -12,7 +12,7 @@
     <details>
       <summary>
         Watercress LLC 2014-2020<br>
-        Site designed and built by Paperbone and<a href="https://twitter.com/Happinessplus__" class="learn" target="_blank"> Happiness+</a>
+        Site designed and built by Paperbone and<a href="https://twitter.com/Happinessplus__" class="learn"> Happiness+</a>
       </summary>
     </details>
 	</div>

@@ -2,49 +2,50 @@
 <html lang="en">
 <?php include 'head.php'; ?>
 <body>
+<!-- Dear Happiness+ in the future, set up CI/CD FTP with our github -->
 <div class="container">
 	<?php include 'header.php'; ?>
 
 	<div class="slideshow-container">
 		<div class="mySlides fade">
 			<a href="https://store.steampowered.com/app/674580/Fare_Thee_Well/?curator_clanid=6547500" target="_blank">
-				<img src="img/FTW_1000x500.png">
+				<img src="img/FTW_1000x500.png" alt="Fare Thee Well" loading="auto">
 			</a>
 		</div>
 
 		<div class="mySlides fade">
 			<a href="https://watercress.itch.io/whenthewarwashome" target="_blank">
-				<img src="img/WTWWH_1000x500.png">
+				<img src="img/WTWWH_1000x500.png" alt="When the war was home" loading="auto">
 			</a>
 		</div>
 
 		<div class="mySlides fade">
 			<a href="https://store.steampowered.com/app/1067930/this_was_for_you/" target="_blank">
-				<img src="img/TWFY_1000x500.png">
+				<img src="img/TWFY_1000x500.png" alt="This was for you" loading="auto">
 			</a>
 		</div>
 		
 		<div class="mySlides fade">
 			<a href="https://watercress.itch.io/our-home" target="_blank">
-				<img src="img/OURHOME_1000x500.png">
+				<img src="img/OURHOME_1000x500.png" alt="Our Home" loading="auto">
 			</a>
 		</div>
 
 		<div class="mySlides fade">
 			<a href="https://watercress.itch.io/afofas-demo" target="_blank">
-				<img src="img/AFOFAS_1000x500.png">
+				<img src="img/AFOFAS_1000x500.png" alt="A Field of Flowers and Stars" loading="auto">
 			</a>
 		</div>
 
 		<div class="mySlides fade">
 			<a href="https://store.steampowered.com/app/458760/Palinurus/?curator_clanid=6547500" target="_blank">
-				<img src="img/PALINURUS_1000x500.png">
+				<img src="img/PALINURUS_1000x500.png" alt="Palinurus" loading="auto">
 			</a>
 		</div>
 
 		<div class="mySlides fade">
 			<a href="https://watercress.itch.io/cautionary-tale" target="_blank">
-				<img src="img/CT_1000x500.png">
+				<img src="img/CT_1000x500.png" alt="Cautionary Tale" loading="auto">
 			</a>
 		</div>
 
@@ -53,7 +54,7 @@
 	</div>
 	<br>
 
-	<script>
+	<script defer>
 	var slideIndex = 1;
 	showSlides(slideIndex);
 

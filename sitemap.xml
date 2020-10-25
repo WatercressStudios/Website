@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://watercressstudios.com/</loc>
-    <lastmod>2020-05-10</lastmod>
+    <lastmod>2020-05-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
       <image:image>
@@ -40,7 +40,7 @@
   </url>
   <url>
     <loc>https://watercressstudios.com/games.php</loc>
-    <lastmod>2020-05-10</lastmod>
+    <lastmod>2020-05-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
       <image:image>
@@ -75,10 +75,22 @@
         <image:loc>https://watercressstudios.com/img/AMGIADSFTDOH.png</image:loc>
         <image:title></image:title>
       </image:image>
+      <image:image>
+        <image:loc>https://watercressstudios.com/img/twfy.png</image:loc>
+        <image:title></image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://watercressstudios.com/img/afofas.png</image:loc>
+        <image:title></image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://watercressstudios.com/img/sneklogo.png</image:loc>
+        <image:title></image:title>
+      </image:image>
   </url>
   <url>
     <loc>https://watercressstudios.com/index.php</loc>
-    <lastmod>2020-05-10</lastmod>
+    <lastmod>2020-05-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
       <image:image>
@@ -116,7 +128,7 @@
   </url>
   <url>
     <loc>https://watercressstudios.com/about.php</loc>
-    <lastmod>2020-05-10</lastmod>
+    <lastmod>2020-05-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
       <image:image>
