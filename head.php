@@ -1,6 +1,7 @@
 <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-73735754-1"></script>
+  <script src="https://www.googletagmanager.com/gtag/js?id=UA-73735754-1"></script>
+  
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -22,18 +23,21 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png" />
   <link rel="apple-touch-icon" sizes="180x180" href="img/logo/apple-touch-icon-180x180.png" />	
   
-	<link rel="stylesheet" type="text/css" href="styles.css" />
-	
+	<link rel="stylesheet" type="text/css" href="min.styles.css" />
+  <!-- Note to self or future developer, I did not use babel or webpack to minify the production files, 
+I kinda need to learn how to at some point. -->
   <meta name="viewport" content="width=device-width"/>
   <meta charset="UTF-8">
   <!-- Keep an eye out on this line of code, in case scripts act funny. -->
-  <meta http-equiv="Content-Security-Policy" content="
+  <!-- <meta http-equiv="Content-Security-Policy" content="
 		default-src 'self';
-		script-src 'self' http://* 'unsafe-inline' https://www.google-analytics.com/;
+		script-src 'self' 'unsafe-inline' https://www.google-analytics.com/ https://code.jquery.com/jquery-3.3.1.min.js https://www.googletagmanager.com/gtag/js?id=UA-73735754-1;
 		style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://use.fontawesome.com;
 		font-src 'self' https://fonts.gstatic.com https://use.fontawesome.com;
     img-src 'self' https://www.google-analytics.com/;
-	">
+  "> 
+Fuck the CSP until we learn how to do it properly when the form comes around.
+-->
 
   <meta name="description" content="We are the largest freeware Visual Novel studio in the US!"/>
   <meta name="keywords" content="Visual Novels, EVN, OELVN,"/>
@@ -43,15 +47,16 @@
   <meta property="og:title" content="Watercress"/>
   <meta property="og:description" content="We are the largest freeware Visual Novel studio in the US!"/>
   <meta property="og:url" content="https://watercressstudios.com/"/>
-  <meta property="og:image" content="https://watercressstudios.com/logo.png" />
+  <meta property="og:image" content="https://watercressstudios.com/img/logo/logo.png" />
   <meta property="og:site_name" content="Watercress" />
-  <!-- Twitter Card  stuff, will fix up with a better image later-->
-  <!-- <meta name="twitter:card" content="summary_large_image"/>
+<!-- Twitter card stuff -->
+  <meta name="twitter:card" content="summary"/>
   <meta name="twitter:title" content="Watercress Studios"/>
-  <meta name="twitter:description" content="Our website"/>
+  <meta name="twitter:url" content="https://watercressstudios.com"/>
+  <meta name="twitter:description" content="The Largest Visual Novel Studio in USA"/>
   <meta name="twitter:site" content="@TeamWatercress"/>
-  <meta name="twitter:image" content="http://www.yoursite.com/yourimage.jpg"/>
-  <meta name="twitter:creator" content="@Happinessplus__"/> -->
+  <meta name="twitter:image" content="https://watercressstudios.com/img/logo/logo.png"/>
+  <meta name="twitter:creator" content="@Happinessplus__"/>
 
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,400" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Lato&display=swap" rel="stylesheet"> 
