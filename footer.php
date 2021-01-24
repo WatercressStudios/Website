@@ -11,7 +11,7 @@
 	</div>
     <details>
       <summary>
-        Watercress LLC 2014-2020<br>
+        Watercress LLC 2014-2021<br>
         Site designed and built by Paperbone and<a href="https://twitter.com/Happinessplus__" class="learn"> Happiness+</a>
       </summary>
     </details>
