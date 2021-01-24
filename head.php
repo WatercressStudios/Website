@@ -22,7 +22,7 @@
   <link rel="apple-touch-icon" sizes="144x144" href="img/logo/apple-touch-icon-144x144.png" />
   <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png" />
   <link rel="apple-touch-icon" sizes="180x180" href="img/logo/apple-touch-icon-180x180.png" />	
-  
+  <!-- Before doing any css changes, link back to styles.css not min please.  -->
 	<link rel="stylesheet" type="text/css" href="min.styles.css" />
   <!-- Note to self or future developer, I did not use babel or webpack to minify the production files, 
 I kinda need to learn how to at some point. -->
