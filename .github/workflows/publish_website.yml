@@ -12,3 +12,4 @@ jobs:
         ftp-server: hosted26.nfoservers.com
         ftp-username: watercressweb
         ftp-password: x3YudDsjPC
+        local-dir: public 
