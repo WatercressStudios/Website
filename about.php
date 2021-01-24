@@ -56,7 +56,7 @@
 			<div class="box">
 				<img src="img/icons/WC_Icon_Coders.png" class="department-icon" alt="Coding Department" />
 				<h3>Coding</h3>
-				<h4>DIRECTOR<br />Happiness+ & EchoFrost</h4>
+				<h4>DIRECTORS<br />Happiness+ & EchoFrost</h4>
 				<ul>
 					<li>Airborne_Manatee</li>
 					<li>CactusBlue</li>
