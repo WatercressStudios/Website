@@ -1,15 +1,17 @@
 on: push
-name: Publish Website
+name: 🚀 Deploy website on push
 jobs:
-  FTP-Deploy-Action:
-    name: FTP-Deploy-Action
+  web-deploy:
+    name: 🎉 Deploy
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2.1.0
-    - name: FTP-Deploy-Action
-      uses: SamKirkland/FTP-Deploy-Action@3.1.1
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v2
+    
+    - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@4.0.0
       with:
-        ftp-server: hosted26.nfoservers.com
-        ftp-username: watercressweb
-        ftp-password: x3YudDsjPC
-        server-dir: ./public/
+        server: hosted26.nfoservers.com
+        username: watercressweb
+        password: x3YudDsjPC
+        server-dir: ./test/
