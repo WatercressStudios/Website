@@ -1,6 +1,5 @@
 # Our website
-We're going to move this to Gitlab ideally, however, we need to continue working on the aesthethic for the website.
-We also need to create some form of CI/CD, aka continuous integration and continuous deployment. 
+This is our website's code. If you know html and css, you'll be fine. All the PHP you see is just generating the html and css. 
 
 ## why CI/CD?
 
@@ -17,4 +16,6 @@ The programming department is a busy department and sometimes looses track of th
 
 ## May I work on it?
 
-Yes, any studio member can work on the website now.
+Yes, any studio member can work on the website now. Before you do, make sure you:
+* Have permission from the marketing department
+* If you making a new large feature, following branch naming conventions, for example: */Coders/Lee/AvitusLayout*
