@@ -14,4 +14,4 @@ jobs:
         server: hosted26.nfoservers.com
         username: watercressweb
         password: x3YudDsjPC
-        server-dir: ./test/
+        server-dir: ./public/
